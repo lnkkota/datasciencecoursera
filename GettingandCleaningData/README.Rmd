@@ -2,7 +2,13 @@
 title: Getting and Cleaning Data Course Project Peer Assessment
 author: "LNKKOTA"
 date: "20 June 2015"
-output: html_document
+output: 
+  html_document:
+    pandoc_args: [
+      "+RTS", "-K64m",
+      "-RTS"
+    ]
+    keep_md: true
 ---
 
 ## Objective of the Project Assignment
