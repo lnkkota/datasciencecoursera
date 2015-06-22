@@ -3,6 +3,7 @@ title: "Machine Learning"
 author: "LK"
 date: "21 June 2015"
 output: html_document
+keep_md: true
 ---
 Load the caret library and read the trainign data file
 ```{r}
